@@ -4,11 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body>
+
+    <svg height="400px" width="400">
+        <circle
+        r="90"
+        cx="200"
+        cy="200"
+        fill="transparent"
+        stroke="green"
+        stroke-width="10"
+        transform="rotate(-90 200 200)"
+        />
+
+        
+    </svg>
     <input id="durationInput" type="text">
-    <button id="startBtn">start</button>
-    <button id="pauseBtn">pause</button>
+    <button id="startBtn"><i class="fa-solid fa-play"></i></button>
+    <button id="pauseBtn"><i class="fa-solid fa-pause"></i></button>
+    <script src="timer.js"></script>
     <script src="app.js"></script>
 </body>
 </html>

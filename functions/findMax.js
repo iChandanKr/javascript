@@ -9,14 +9,17 @@
 // });
 // console.log(highest);
 
-const votes = ["y", "y", "n", "y", "n", "y", "n", "y", "n", "n", "n", "y", "y"];
+const votes = ["y", "y", "n", "y", "n", "y", "n", "y", "n", "n", "n", "y", "y","t"];
 
 const results = votes.reduce(
   (accumulator, currentValue) => {
+    if(!accumulator[currentValue]){
+      accumulator[currentValue] = 0;
+    }
     accumulator[currentValue]++;
     return accumulator;
   },
-  { y: 0, n: 0 }
+  { }
 );
 
 console.log(results);

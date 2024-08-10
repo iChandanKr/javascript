@@ -26,12 +26,16 @@ function bakePizza(dough, callback) {
   }, 2000);
 }
 
-getCheese((cheese) => {
-  makeDough(cheese, (dough) => {
-    bakePizza(dough, (pizza) => {
-      console.log("i got ", pizza);
+function getPizza (){
+
+  getCheese((cheese) => {
+    makeDough(cheese, (dough) => {
+      bakePizza(dough, (pizza) => {
+        console.log("i got ", pizza);
+      });
     });
   });
-});
+}
 
+getPizza();
 // const getDough = makeDough()

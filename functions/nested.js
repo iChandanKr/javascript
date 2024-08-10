@@ -13,11 +13,12 @@ var data = {
     ]
 };
 
+// const { title, bar, innerData } = data;
 
 const { title, bar, innerData: [first, second] } = data;
 const {title:title234,foo} = first;
 console.log(title234);
 console.log(title);
-// console.log(innerData);
+console.log(innerData);
 console.log(first);
 console.log(second);

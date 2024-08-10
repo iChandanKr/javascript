@@ -1,0 +1,14 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev":"nodemon index.js"
+  },
+  "author": "chandan",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
