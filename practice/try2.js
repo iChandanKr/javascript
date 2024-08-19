@@ -1,14 +1,16 @@
 function f1() {
   // const id = 7;
-  // let id;
+ 
   try {
     console.log(id);
     if (id) {
       console.log(id);
     }
-  } catch (a) {
+  } catch (err) {
     console.log("inside catch block");
     throw new Error("id is undefined throwed through catch ");
+  } finally {
+    return id;
   }
 }
 
