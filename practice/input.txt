@@ -1,0 +1,133 @@
+filteredRoomUsers before :  [
+    UserRoom {
+     dataValues: {
+      roomId: '9caf30a1-b3b2-476e-8e9a-d9271e713ef2',
+        userIds: [Array],
+      lastMessageSentTime: '9/13/2024, 12:05:42 PM'
+     },
+    _previousDataValues: {
+      roomId: '9caf30a1-b3b2-476e-8e9a-d9271e713ef2',
+         userIds: [Array]
+       },
+       uniqno: 1,
+       _changed: Set(0) {},
+       _options: {
+         isNewRecord: false,
+         _schema: null,
+         _schemaDelimiter: '',
+         raw: true,
+         attributes: [Array]
+       },
+       isNewRecord: false
+     },
+    UserRoom {
+      dataValues: {
+      roomId: '72f328f1-0c26-4c61-b671-8704b67b3bb5',
+        userIds: [Array],
+        lastMessageSentTime: '9/11/2024, 8:19:52 AM'
+      },
+      _previousDataValues: {
+       roomId: '72f328f1-0c26-4c61-b671-8704b67b3bb5',
+        userIds: [Array]
+     },
+      uniqno: 1,
+      _changed: Set(0) {},
+     _options: {
+     isNewRecord: false,
+      _schema: null,
+      _schemaDelimiter: '',
+      raw: true,
+       attributes: [Array]
+      },
+      isNewRecord: false
+    },
+    UserRoom {
+      dataValues: {
+       roomId: 'ec149224-44ba-4419-89c0-7b495573bfce',
+       userIds: [Array],
+        lastMessageSentTime: '9/12/2024, 5:46:27 AM'
+       draft: '{"draft":"aaaaaaaaaa","messageId":null,"lastEdited":"last edited today at 11:21 am"}'
+      },
+    _previousDataValues: {
+       roomId: 'ec149224-44ba-4419-89c0-7b495573bfce',
+       userIds: [Array]
+     },
+      uniqno: 1,
+       _changed: Set(0) {},
+       _options: {
+         isNewRecord: false,
+         _schema: null,
+         _schemaDelimiter: '',
+         raw: true,
+         attributes: [Array]
+       },
+       isNewRecord: false
+     }
+   ]
+  filteredRoomUsers after :  [
+   UserRoom {
+       dataValues: {
+         roomId: 'ec149224-44ba-4419-89c0-7b495573bfce',
+         userIds: [Array],
+         lastMessageSentTime: '9/12/2024, 5:46:27 AM',
+         draft: '{"draft":"aaaaaaaaaa","messageId":null,"lastEdited":"last edited today at 11:21 am"}'
+       },
+       _previousDataValues: {
+         roomId: 'ec149224-44ba-4419-89c0-7b495573bfce',
+         userIds: [Array]
+       },
+       uniqno: 1,
+       _changed: Set(0) {},
+       _options: {
+         isNewRecord: false,
+         _schema: null,
+         _schemaDelimiter: '',
+         raw: true,
+        attributes: [Array]
+       },
+      isNewRecord: false
+    },
+    UserRoom {
+       dataValues: {
+        roomId: '9caf30a1-b3b2-476e-8e9a-d9271e713ef2',
+        userIds: [Array],
+        lastMessageSentTime: '9/13/2024, 12:05:42 PM'
+      },
+       _previousDataValues: {
+       roomId: '9caf30a1-b3b2-476e-8e9a-d9271e713ef2',
+       userIds: [Array]
+      },
+      uniqno: 1,
+      _changed: Set(0) {},
+      _options: {
+         isNewRecord: false,
+       _schema: null,
+       _schemaDelimiter: '',
+       raw: true,
+        attributes: [Array]
+       },
+      isNewRecord: false
+     },
+    UserRoom {
+      dataValues: {
+       roomId: '72f328f1-0c26-4c61-b671-8704b67b3bb5',
+        userIds: [Array],
+        lastMessageSentTime: '9/11/2024, 8:19:52 AM'
+      },
+      _previousDataValues: {
+      roomId: '72f328f1-0c26-4c61-b671-8704b67b3bb5',
+        userIds: [Array]
+       },
+       uniqno: 1,
+      _changed: Set(0) {},
+     _options: {
+        isNewRecord: false,
+         _schema: null,
+        _schemaDelimiter: '',
+        raw: true,
+         attributes: [Array]
+       },
+       isNewRecord: false
+     }
+   ]
+  

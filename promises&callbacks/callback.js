@@ -6,16 +6,16 @@ function getCheese(callback) {
   setTimeout(() => {
     const cheese = "Cheese";
     console.log("here is the cheese");
-    callback(cheese);    
-  }, 2000);    
+    callback(cheese);
+  }, 2000);
 }
 
-function makeDough(cheese, callback) {    
+function makeDough(cheese, callback) {
   setTimeout(() => {
-    const dough = cheese + " dough";    
-    console.log("here is the ", dough);    
+    const dough = cheese + " dough";
+    console.log("here is the ", dough);
     callback(dough);
-  }, 2000);    
+  }, 2000);
 }
 
 function bakePizza(dough, callback) {
@@ -26,8 +26,7 @@ function bakePizza(dough, callback) {
   }, 2000);
 }
 
-function getPizza (){
-
+function getPizza() {
   getCheese((cheese) => {
     makeDough(cheese, (dough) => {
       bakePizza(dough, (pizza) => {

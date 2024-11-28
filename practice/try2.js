@@ -10,7 +10,10 @@ function f1() {
     console.log("inside catch block");
     throw new Error("id is undefined throwed through catch ");
   } finally {
-    return id;
+    console.log('sldkf')
+    return 1;
+    // throw new Error(" in f1 finally ");
+    // let db=1;
   }
 }
 

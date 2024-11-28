@@ -5,7 +5,7 @@ function f1() {
       console.log(id, "inside try");
     }
   } catch (error) {
-    console.log("in f1 catch", error);
+    // console.log("in f1 catch", error);
     throw new Error("error catch of f1");
   } finally {
     console.log("inside finally f1");

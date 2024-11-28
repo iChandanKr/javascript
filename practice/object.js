@@ -40,7 +40,4 @@ arr.sort((a, b) => {
   }
 });
 
-
-
-
 console.log(arr);
